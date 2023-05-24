@@ -46,7 +46,19 @@ header{
     
 }
 
-.contenedor-titulo{  
+.header__nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 0;
+}
+
+.header__navList{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.header__containerTitle{  
     width: 33%;
     height: 4.375rem;
     display: flex;
@@ -54,7 +66,11 @@ header{
     align-items: center;
 }
 
-.contenedor-iconos{
+.header__title{
+    font-family: 'Roboto', sans-serif serif;  
+}
+
+.header__containerIcons{
     width: 33%;
     height: 4.375rem;
     display: flex;
@@ -62,42 +78,20 @@ header{
     align-items: center;
 }
 
-.caja-iconos{
-    height: 2.1875rem;
-    margin: 1.5625rem;
-    width: 8.125rem;
+.header__icons{
+    height: 1.7rem;
+    width: 7.125rem;
     display: flex;
     justify-content: space-between;
-    margin-top: 2.1875rem;
-}
-
-
-
-.caja-iconos img{
-    height: 70%;
-    width: 20%;
-}
-
-
-.titulo{
-    font-family: 'Roboto', sans-serif serif;  
-}
-
-
-.contenedor-lista{
-    width: 25rem;
-    display: flex;
-    justify-content: space-around;
+    margin-right: 30px;
+    gap: 20px;
     
 }
 
-.lista{
-    font-family: 'Roboto', sans-serif;
-    
-}
+
 
 main{
-    height: 380vh;
+    height: auto;
     background-color: #ececec
 }
 .contenedor-carrusel{
@@ -128,24 +122,22 @@ main{
     ;
 }
 
-.div-nav2{
+.nav{
     display: flex;
     justify-content: center;
 }
 
-.caja-nav2{
+.nav ul{
     display: flex;
     height: 2.5rem;
-    width: 50rem;
     margin: 0.9375rem;
-
-    justify-content: space-between
+    justify-content: space-around
 }
 
-.nav2{
+.nav__list{
     font-family: 'Roboto', sans-serif;
     font-size: 1.5625rem;
-    margin-right: 3.125rem;
+    margin-right: 5rem;
 
 }
 
@@ -186,7 +178,7 @@ main{
     justify-content: center;
 
 }
-.caja-boton{
+.btn{
     background-color: black;
     height: 3.125rem;
     width: 6.25rem;
@@ -196,12 +188,20 @@ main{
     align-items: center;
 }
 
-.boton{
+.btn a{
     font-family: 'Koulen' cursive;
     font-size: smaller;
 }
 
-.tarjeta-2{
+.contenedor__categorias{
+    margin: 3.125rem;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.categorias{
     background-color: aqua;
     margin: 1.875rem;
     height: 35.625rem;
@@ -214,54 +214,49 @@ main{
     justify-content: end;
 }
 
-.texto-tarjeta{
+.categorias__texto{
     font-family: 'Koulen' cursive;
     margin-bottom: 1.875rem;
     color: white;
 }
 
-.tarjeta-2 a{
+.categorias a{
     margin-bottom: 1.875rem;
     margin-left: 0.625rem;
 }
 
-.contenedor-tarjetas-2{
-    margin: 3.125rem;
-    
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 
-.contenedor-footer{
-    margin: 3.125rem;
+footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 6.25rem;
+    height: auto;
 }
 
-.caja-footer{
+.footer__container{
+    margin-top: 20px;
     width: 18.75rem;
-    height: 18.75rem;
+    height: 15rem;
     display: flex;
     flex-direction: column;
 
 }
 
-.caja-footer h2{
-    margin-bottom: 1.25rem;
+.footer__container nav ul{
+    padding: 0%;
 }
 
-.main-titulo-2{
+.metodos_de_pago{
+    display: flex;
+}
+
+.metodos_de_pago i img{
+    width: 100%;
+    height: 100%;
+}
+
+.section__title{
     padding-top: 1.875rem;
     text-align: center
     
-}
-.main-2{
-    height: 200vh;
-}
-
-.main-corto{
-    height: 70vh
 }
