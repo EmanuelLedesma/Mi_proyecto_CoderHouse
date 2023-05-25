@@ -19,18 +19,27 @@
 
 
     <header>
-            <nav class="header__nav"> 
-                <ul>
-
-                    <li class="header__navList"><a href="./pages/hombres.html">Hombres</a></li>
-            
-                    <li class="header__navList"><a href="./pages/mujeres.html">Mujeres</a></li>
-            
-                    <li class="header__navList">Nuevo Stock</li>   
-            
-                </ul>   
-            
-            </nav>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light header__nav">
+            <div class="container-fluid background ">
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="./pages/hombres.html">Hombres</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/mujeres.html">Mujeres</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nuevo stock</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
         <div class="header__containerTitle">
 
@@ -58,15 +67,67 @@
      <main> 
 
         <!-- section para luego poner un carrusel -->
-        <section class="contenedor-carrusel">
+        <section class="container__carrusel">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide container__carrusel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./Imagenes/gymsuit.png" class="d-block w-100 carrusel__imagen" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="contenedor-boton">
 
-            <div class="button">
+                            <div class="btn">     
+                
+                                <a href="./pages/mujeres.html">Comprar ahora</a>
+                
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./Imagenes/b23510552a2747e7f9226c752c1b7a67.jpg" class="d-block w-100 carrusel__imagen" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="contenedor-boton">
 
-                <div class="boton">Comprar ahora</div>
+                            <div class="btn">     
+                
+                                <a href="./pages/hombres.html">Comprar ahora</a>
+                
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carrusel__imagen">
+                    <img src="./Imagenes/wood-3094281_960_720.jpg" class="d-block w-100 carrusel__imagen" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="contenedor-boton">
 
+                            <div class="btn">     
+                
+                                <a href="./pages/hombres.html">Comprar ahora</a>
+                
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
             </div>
-
-        </section>        
+        </section>     
 
         <nav class="nav">
 

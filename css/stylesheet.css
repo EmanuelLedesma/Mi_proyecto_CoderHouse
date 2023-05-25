@@ -13,6 +13,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+body{
+    width: auto;
+}
 
 .cuotas{
     background-color: black;
@@ -38,12 +41,24 @@ header{
 }
 
 .header__nav{
+    color: black;
+    background-color: #ffffff;
     width: 33%;
     height: 4.375rem;
     justify-content: start;
     align-items: center;
     display: flex
-    
+       
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.background{
+    background-color: #ffffff;
+    padding: 0%;
+    margin: 0%;
 }
 
 .header__nav ul{
@@ -92,20 +107,15 @@ header{
 
 main{
     height: auto;
-    background-color: #ececec
+    background-color: #ececec    
 }
-.contenedor-carrusel{
-    height: 46.875rem; 
-    display: flex;
-    justify-content: center;
-    align-items: end;
+
+
+
+.carrusel__imagen{
+    height: 45rem;
+    object-fit: cover
     
-    background-image:url(../Imagenes/wood-3094281_960_720.jpg);
-    background-position: center;
-    background-size: contain;
-
-      
-
 }
 
 .button{
@@ -181,7 +191,7 @@ main{
 .btn{
     background-color: black;
     height: 3.125rem;
-    width: 6.25rem;
+    width: 8.25rem;
     color: white;
     display: flex;
     justify-content: center;
