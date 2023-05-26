@@ -1,5 +1,0 @@
-nota: dejo el link de los wireframe que hice en figma porque al descargarlo en pdf algunas paginas se ven mal, como la main page. En el codigo deje hecha una sección que es representativa nomas para luego reemplazarla con un carrusel, obviamente las imagenes no son las finales, vendrian a ser maquetas, otra cosa que quería hacer pero no pude hacerlo era dejar el header fijo para que se suiguiera viendo al scrollear, intente con position: fixed pero tampoco resultó.
-
-van a ver que tenia hechos mas de 5 secciones porque ya había hecho otras antes, pero de las que tenía elegí 5 para hacer el codigo como la actividad lo proponía  
-
-https://www.figma.com/file/2PHEIGCEuaMyccrLJSs6Ao/Wireframe-CoderHouse?t=ut8WXkK4AaUCMOrl-1
