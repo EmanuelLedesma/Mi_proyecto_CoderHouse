@@ -44,6 +44,7 @@ header{
     justify-content: space-between;
     background-color: #ffffff;
     z-index: 2;
+
     position: sticky;
     top: 0px    ;
     display: flex
@@ -454,26 +455,38 @@ footer{
     }
 
     .title__formulario{
-        display: block;
         padding-top: 40px;
     }
 
-    .formulario{
+    form{
         margin: 20px;
         display: grid;
-        grid-template-columns: 1fr 1fr; 
-        grid-gap: 10px; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 10px;
+        padding-bottom: 50px; 
       }
-      
-      label {
-        grid-column: 1; 
+
+      label{
+        display: none;
+    }
+    
+
+      input{
+        grid-column: 1/4; 
+        height: 50px; 
+        border: grey;
       }
-      
-      input, textarea {
-        grid-column: 2; 
-        width: 100%; 
+
+      textarea{
+        height: 250px;
+        grid-column: 1/4;
+        border: grey;
       }
       
       input[type="submit"] {
-        grid-column: 1 / span 2; 
+        color: #ffffff;
+        background-color: black;
+        grid-column: 1/4 
+        
       }
