@@ -1,0 +1,27 @@
+
+
+.categorias{
+    margin: 1.875rem;
+    height: 35.625rem;
+    width: 25rem;
+    background-image: url(../Imagenes/accesorios\ gym.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: end;
+
+    &__texto{
+        font-family: 'Koulen' cursive;
+        margin-bottom: 1.875rem;
+        color: $color-blanco;
+    }
+
+    a{
+        margin-bottom: 1.875rem;
+        margin-left: 0.625rem;
+    }
+
+}
+
+
