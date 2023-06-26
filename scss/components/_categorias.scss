@@ -2,26 +2,51 @@
 
 .categorias{
     margin: 1.875rem;
-    height: 35.625rem;
-    width: 25rem;
-    background-image: url(../Imagenes/accesorios\ gym.jpg);
-    background-position: center;
+    height: 670px;
+    width: 520px;
+
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     justify-content: end;
+    overflow: hidden;
 
     &__texto{
         font-family: 'Koulen' cursive;
         margin-bottom: 1.875rem;
         color: $color-blanco;
+        position: relative;
+        z-index: 2;
     }
 
     a{
+        background: $color-negro;
         margin-bottom: 1.875rem;
-        margin-left: 0.625rem;
+        position: relative;
+        z-index: 2;
+        font-size: small;
     }
 
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index: 1;
+        transition: 3.5s ease;
+    }
+
+    img:hover{
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+
+
+
+}
+
+.categorias__imgBackground{
+    transform: scale(1.4);
 }
 
 
