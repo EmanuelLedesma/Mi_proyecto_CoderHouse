@@ -19,19 +19,28 @@
     </div>
 
 
-    <header>
-            <nav class="header__nav"> 
-                <ul>
-
-                    <li class="header__navList"><a href="../pages/hombres.html">Hombres</a></li>
-            
-                    <li class="header__navList"><a href="../pages/mujeres.html">Mujeres</a></li>
-            
-                    <li class="header__navList">Nuevo Stock</li>   
-            
-                </ul>   
-            
-            </nav>
+    <header class="header">
+        
+        <nav class="navbar navbar-expand-lg navbar-light header__nav ">
+            <div class="container-fluid">
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="../pages/hombres.html">Hombres</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/mujeres.html">Mujeres</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Nuevos_lanzamientos.html">Nuevos lanzamientos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
         <div class="header__containerTitle">
 
@@ -43,13 +52,14 @@
 
             <div class="header__icons">
 
-                <img src="../imagenes/Iconos/usuario.png" alt="icono para iniciar cuenta">
+                <img src="../Imagenes/Iconos/usuario.png" alt="icono para iniciar cuenta">
 
-                <img src="../imagenes/Iconos/lupa.png" alt="icono de lupa para buscar el producto deseado">
+                <img src="../imagenes/Iconos/lupa.png" alt="Buscar">
 
-                <img src="../imagenes/Iconos/carrito-de-compras.png" alt="Carrito de compras icono para separar los producto deseados para comprarlos">
+                <img src="../Imagenes/Iconos/carrito-de-compras.png">
 
             </div>
+
         </div>
              
     </header>
@@ -59,7 +69,7 @@
 
         <section class="contenedor-tarjetas">
 
-            <div class="tarjeta"><img src="../Imagenes/Creatina.jpg" alt= "creatina start nutrition" >
+            <div class="tarjeta" data-aos="fade-up" data-aos-once="true" data-aos-duration="800"><img src="../Imagenes/Musculosa shark.webp.jpg" alt="musculosa negra shark">
 
                 <div class="tarjeta-cuerpo">
  
@@ -71,7 +81,7 @@
              
             </div>
 
-            <div class="tarjeta animate__animated animate__fadeInUp" ><img src="../Imagenes/Creatina.jpg" alt= "ropa chica">
+            <div class="tarjeta" data-aos="fade-up" data-aos-once="true" data-aos-duration="900"><img src="../Imagenes/Musculosa shark.webp.jpg" alt="musculosa negra shark">
 
                 <div class="tarjeta-cuerpo">
  
@@ -83,9 +93,9 @@
              
             </div>
 
-            <div class="tarjeta animate__animated animate__fadeInUp"><img src="../Imagenes/Creatina.jpg" alt= "creatina start nutrition" >
+            <div class="tarjeta" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000"><img src="../Imagenes/Musculosa shark.webp.jpg" alt="musculosa negra shark">
 
-                <div class="tarjeta-cuerpo ">
+                <div class="tarjeta-cuerpo">
  
                     <h3>Nombre del producto</h3>
  
@@ -95,9 +105,9 @@
              
             </div>
 
-            <div class="tarjeta animate__animated animate__fadeInUp"><img src="../Imagenes/Creatina.jpg" alt= "creatina start nutrition" >
+            <div class="tarjeta" data-aos="fade-up" data-aos-once="true" data-aos-duration="1100"><img src="../Imagenes/Musculosa shark.webp.jpg" alt="musculosa negra shark">
 
-                <div class="tarjeta-cuerpo" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+                <div class="tarjeta-cuerpo">
  
                     <h3>Nombre del producto</h3>
  
@@ -108,6 +118,7 @@
             </div>
 
         </section>
+        <hr>
     </main>
     <footer>
         <div class="footer__container">
@@ -121,7 +132,7 @@
             <nav>
                 <ul>
                     <li><a href="/index.html">inicio</a></li>
-                    <li>contacto</li>
+                    <li><a href="./contacto.html">contacto</a></li>
                     <li>politica de devolución</li>
                 </ul>
             </nav>

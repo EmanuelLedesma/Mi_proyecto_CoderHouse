@@ -1,13 +1,13 @@
 @import "_base";
 
 
-@import "./components/boton";
-@import "./components/carrusel";
-@import "./components/categorias";
-@import "./components/footer";
-@import "./components/header";
-@import "./components/navbar";
-@import "./components/tarjetas";
+@import "./components/_boton";
+@import "./components/_carrusel";
+@import "./components/_categorias";
+@import "./components/_footer";
+@import "./components/_header";
+@import "./components/_navbar";
+@import "./components/_tarjetas";
 
 @import"./pages/index";
 @import "./pages/Accesorios";
